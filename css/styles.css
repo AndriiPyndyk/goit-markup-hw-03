@@ -1,0 +1,236 @@
+:root {
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --white: #ffffff;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+
+    color: var(--navy-blue);
+}
+
+/* -----Navigation----- */
+
+        /* Logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--iris);
+}
+
+.logo-span.header {
+    color: var(--navy-blue)
+}
+
+.logo-span.footer {
+    color: var(--cloud);
+}
+
+        /* Navigation Menu */
+.nav-menu .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    color: var(--navy-blue);
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-list .link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; 
+    text-decoration: none;
+
+    color: var(--slate);
+}
+
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+    color: var(--ocean);
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+    color: var(--ocean);
+}
+
+
+/* -----Hero section----- */
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero > .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: var(--white);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--ocean);
+}
+
+/* -----Company benefits section----- */
+
+.benefits-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--navy-blue);
+}
+
+.benefits-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* -----What are we doing section----- */
+
+/* -----Our team section----- */
+
+.section.team {
+    background-color: var(--cloud);
+}
+
+.team-list .item {
+    background-color: var(--white);
+}
+
+.team-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--navy-blue);
+}
+
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* -----Footer----- */
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--cloud);
+}
+
+
+
+/* ========PORTFOLIO.HTML======== */
+
+/* -----Filter buttons----- */
+
+.filter-list-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
+/* -----Project list----- */
+
+.project-item .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: var(--navy-blue);
+}
+
+.project-item .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--slate);
+}
+
+
+
+
+
+
+
+
