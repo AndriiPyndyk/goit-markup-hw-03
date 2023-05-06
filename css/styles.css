@@ -112,8 +112,6 @@ img {
 
 .contacts {
     font-style: normal;
-
-    margin-left: auto;
 }
 
 .contacts-list .link {
@@ -138,35 +136,39 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    justify-content: space-between;
 }
 
 .site-nav {
     display: flex;
     align-items: center;
-    column-gap: 76px;
 }
 
-.nav-menu.list {
+.site-nav .logo {
+    display: block;
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-menu {
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px;
 }
 
-.contacts-list.list {
+.nav-menu-item .link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.contacts-list {
     display: flex;
-    text-align: center;
-    margin-left: auto;
+    gap: 40px;
 }
 
-.contacts-list .link.tel {
-    margin-left: 40px;
-}
 
-.header-border {
-    border-bottom: 1px solid var(--cornflower);
-}
+
 
 
 /* -----Hero section----- */
